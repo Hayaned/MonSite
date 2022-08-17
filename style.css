@@ -1,0 +1,173 @@
+
+/* entete */
+
+.header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-top: 1%;
+    margin-left: 10%;
+    width: auto;
+    height: auto;
+}
+
+.texte1{
+    margin-right: 10%;
+    width: auto;
+    height: auto;
+}
+
+/* centre */
+
+.centre {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF775D;
+}
+
+.gauche{
+    margin-left: 10%;
+    width: 45%;
+    height: auto;
+}
+
+.droit{
+    width: 38%;
+    height: auto;
+}
+
+.titre{
+    font-size: 85px;
+	color: white;
+}
+
+/* centre2 */
+
+.centre2 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.gauche2{
+    margin: -2%;
+    margin-left: 10%;
+    width: 40%;
+    height: auto;
+}
+
+.trait{
+    width: 70%;
+    height: 5%;
+    margin-top: -25%;
+    margin-bottom: 30%;
+    background-color: #8B19B9;
+}
+
+.droit2{
+    border-top-left-radius: 50px;
+    margin-top: -10%;
+    margin-right: 7%;
+    width: 35%;
+    height: auto;
+    background-color: #8B19B9;
+}
+
+.titre2{
+    text-align: right;
+    font-size: 64px;
+	color: black;
+}
+
+.titre3{
+    margin-left: 25%;
+    font-size: 64px;
+	color: white;
+}
+
+.texte2{
+    text-align: right;
+}
+
+/* BAS */
+
+.bas {
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.business{
+    width: 80%;
+    height: 70%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+}
+
+.element{
+    width: 33%;
+    height: 60%;
+}
+
+.icon{
+    margin-left: 10%;
+    margin-bottom: 2%;
+    width: 90%;
+    height: 50%;
+    display: flex;
+
+}
+
+.titre4{
+    margin-top: -5%;
+    font-size:40px ;
+    color: white;
+}
+
+.texte3{
+    margin-left: 10%;
+    font-size: 24px;
+    color: white;
+}
+.vide{
+    width: 0.5%;
+    height: 60%;
+    background-color: white;
+}
+
+.bar{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -5%;
+    margin-bottom: 3%;
+    height: 2px;
+    background-color: white;
+
+}
+
+.footer{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.texte4{
+    color: white;
+}
